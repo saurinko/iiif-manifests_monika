@@ -1,7 +1,7 @@
 {
-  "@context": "http://iiif.io/api/presentation/3/context.json",
-  "@id": "https://saurinko.github.io/iiif-manifests_monika/glogau_xvii_3_manifest.json",
-  "@type": "Manifest",
+  "context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://saurinko.github.io/iiif-manifests_monika/glogau_xvii_3_manifest.json",
+  "type": "Manifest",
   "label": { "en": ["Glogau XVII 3 – Kościół w Głogowie"] },
   "summary": { "pl": ["Rycina przedstawiająca kościół w Głogowie (XVII w.). Źródło: Wikimedia Commons."] },
   "metadata": [
@@ -11,28 +11,28 @@
   ],
   "items": [
     {
-      "@id": "https://saurinko.github.io/iiif-manifests_monika/glogau_xvii_3_manifest.json",
+      "id": "https://saurinko.github.io/iiif-manifests_monika/glogau_xvii_3_manifest.json",
       "type": "Canvas",
       "width": 1637,
       "height": 1143,
       "items": [
         {
-          "@id": "https://saurinko.github.io/iiif-manifests_monika/glogau_xvii_3_manifest.json",
+          "id": "https://saurinko.github.io/iiif-manifests_monika/glogau_xvii_3_manifest.json",
           "type": "AnnotationPage",
           "items": [
             {
-              "@id": "https://saurinko.github.io/iiif-manifests_monika/glogau_xvii_3_manifest.json",
+              "id": "https://saurinko.github.io/iiif-manifests_monika/glogau_xvii_3_manifest.json",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "@id": "https://upload.wikimedia.org/wikipedia/commons/0/04/Glogau_XVII_3.jpg",
+                "id": "https://upload.wikimedia.org/wikipedia/commons/0/04/Glogau_XVII_3.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 1637,
                 "height": 1143,
                 "service": [
                   {
-                    "@id": "https://upload.wikimedia.org/wikipedia/commons/0/04/Glogau_XVII_3.jpg",
+                    "id": "https://upload.wikimedia.org/wikipedia/commons/0/04/Glogau_XVII_3.jpg",
                     "type": "ImageService3",
                     "profile": "level1"
                   }
