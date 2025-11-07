@@ -1,0 +1,48 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://twojadomena.pl/iiif/glogau_xvii_3_manifest.json",
+  "type": "Manifest",
+  "label": { "en": ["Glogau XVII 3 – Kościół w Głogowie"] },
+  "summary": { "pl": ["Rycina przedstawiająca kościół w Głogowie (XVII w.). Źródło: Wikimedia Commons."] },
+  "metadata": [
+    { "label": { "pl": ["Źródło"] }, "value": { "pl": ["https://commons.wikimedia.org/wiki/File:Glogau_XVII_3.jpg"] } },
+    { "label": { "pl": ["Autor"] }, "value": { "pl": ["Nieznany (XVII w.)"] } },
+    { "label": { "pl": ["Licencja"] }, "value": { "pl": ["Domena publiczna (Public Domain)"] } }
+  ],
+  "items": [
+    {
+      "id": "https://twojadomena.pl/iiif/canvas/glogau_xvii_3",
+      "type": "Canvas",
+      "width": 1637,
+      "height": 1143,
+      "items": [
+        {
+          "id": "https://twojadomena.pl/iiif/annotationpage/glogau_xvii_3",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://twojadomena.pl/iiif/annotation/glogau_xvii_3-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://upload.wikimedia.org/wikipedia/commons/0/04/Glogau_XVII_3.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 1637,
+                "height": 1143,
+                "service": [
+                  {
+                    "id": "https://upload.wikimedia.org/wikipedia/commons/0/04/Glogau_XVII_3.jpg",
+                    "type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://twojadomena.pl/iiif/canvas/glogau_xvii_3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
