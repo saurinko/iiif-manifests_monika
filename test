@@ -1,0 +1,156 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json", 
+  "@id": "https://media.getty.edu/iiif/manifest/1785228f-ef02-45a1-827e-37b615fb4c85", 
+  "@type": "sc:Manifest", 
+  "attribution": "<p>Images provided here are believed to be in the public domain and     are available under <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\">CC0</a>     through Getty&rsquo;s <a href=\"http://www.getty.edu/about/opencontent.html\">Open Content Program</a>.     Texts provided here are &copy; J. Paul Getty Trust, licensed under     <a href=\"https://creativecommons.org/licenses/by/4.0/legalcode\">CC BY 4.0</a>.     Terms of use for the Getty logo can be found     <a href=\"http://www.getty.edu/legal/copyright.html#logo\"> here</a>.    </p>", 
+  "description": [
+    "<p>Separated into two zones with allegorical figures in the foreground and historical figures in the background, Peter Paul Rubens here commemorated the meeting of King Ferdinand III of Hungary and the Cardinal-Infante Ferdinand at Nördlingen on the Danube River on September 2, 1634. Four days later, the two Catholic rulers would combine their armies to win an important victory over Protestant forces. At the upper right, the Cardinal-Infante solemnly greets his cousin Ferdinand.   </p>\\n<p>Rubens made this freely drawn oil sketch as a modello for the right panel of the great  <em>Stage of Welcome,</em>  a monumental canvas that decorated a triumphal arch erected for the ceremonial entry into Antwerp of the newly appointed governor of the southern Netherlands, the Cardinal-Infante Ferdinand of Spain.   </p>\\n<p>In the foreground, allegorical figures comment on the significance of the event. At the left a naiad or water nymph rests her arm on the personification of the River Danube, who sits on a urn flowing with blood and water while extending his left arm in a gesture of welcome. Kneeling at the right, the figure of Germania, dressed in black, rests her head on her hand. She gazes mournfully at the viewer while a winged genius draws her attention to the meeting behind her.</p>"
+  ], 
+  "label": "Meeting of King Ferdinand of Hungary and the Cardinal-Infante Ferdinand of Spain at Nördlingen", 
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/", 
+  "logo": "https://www.getty.edu/global/images/getty_logo_primary_blk.png", 
+  "metadata": [
+    {
+      "label": "Artist/Maker", 
+      "value": [
+        "Peter Paul Rubens (Flemish, 1577 - 1640)"
+      ]
+    }, 
+    {
+      "label": "Title", 
+      "value": "Meeting of King Ferdinand of Hungary and the Cardinal-Infante Ferdinand of Spain at Nördlingen"
+    }, 
+    {
+      "label": "Material", 
+      "value": [
+        "Oil on panel"
+      ]
+    }, 
+    {
+      "label": "Dimensions", 
+      "value": [
+        "Unframed: 49.1 × 69.8 cm (19 5/16 × 27 1/2 in.)", 
+        "Framed [Outer Dim]: 76.2 × 90.5 × 6.4 cm (30 × 35 5/8 × 2 1/2 in.)"
+      ]
+    }, 
+    {
+      "label": "Accession Number", 
+      "value": [
+        "87.PB.15"
+      ]
+    }, 
+    {
+      "label": "Collection", 
+      "value": "<a href=\"http://www.getty.edu/art/collection/\">The J. Paul Getty Museum</a>"
+    }, 
+    {
+      "label": "Rights Statement", 
+      "value": "<p>Images provided here are believed to be in the public domain and     are available under <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\">CC0</a>     through Getty&rsquo;s <a href=\"http://www.getty.edu/about/opencontent.html\">Open Content Program</a>.     Texts provided here are &copy; J. Paul Getty Trust, licensed under     <a href=\"https://creativecommons.org/licenses/by/4.0/legalcode\">CC BY 4.0</a>.     Terms of use for the Getty logo can be found     <a href=\"http://www.getty.edu/legal/copyright.html#logo\"> here</a>.    </p>"
+    }, 
+    {
+      "label": "Date Modified", 
+      "value": "2025-11-04T08:12:28.401252+00:00"
+    }
+  ], 
+  "related": "https://www.getty.edu/art/collection/object/103RJ1", 
+  "seeAlso": {
+    "@id": "https://data.getty.edu/museum/collection/object/72f886cc-47da-4d92-ba7e-8ab13a29ec09", 
+    "format": "application/ld+json", 
+    "profile": "https://static.getty.edu/contexts/linked.art/ns/v1.1.0/linked-art.json"
+  }, 
+  "sequences": [
+    {
+      "@id": "https://media.getty.edu/iiif/manifest/1785228f-ef02-45a1-827e-37b615fb4c85/default", 
+      "@type": "sc:Sequence", 
+      "canvases": [
+        {
+          "@id": "https://media.getty.edu/iiif/manifest/canvas/f814f130-ddda-495b-941e-c569dca0c07c", 
+          "@type": "sc:Canvas", 
+          "height": 6569, 
+          "images": [
+            {
+              "@id": "https://media.getty.edu/iiif/manifest/anno-f814f130-ddda-495b-941e-c569dca0c07c", 
+              "@type": "oa:Annotation", 
+              "motivation": "sc:painting", 
+              "on": "https://media.getty.edu/iiif/manifest/canvas/f814f130-ddda-495b-941e-c569dca0c07c", 
+              "resource": {
+                "@id": "https://media.getty.edu/iiif/image/f814f130-ddda-495b-941e-c569dca0c07c/full/max/0/default.jpg", 
+                "@type": "dctypes:Image", 
+                "format": "image/jpeg", 
+                "height": 6569, 
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json", 
+                  "@id": "https://media.getty.edu/iiif/image/f814f130-ddda-495b-941e-c569dca0c07c", 
+                  "profile": "http://iiif.io/api/image/2/level2.json", 
+                  "sizes": [
+                    {
+                      "height": 102, 
+                      "width": 135
+                    }, 
+                    {
+                      "height": 205, 
+                      "width": 270
+                    }, 
+                    {
+                      "height": 410, 
+                      "width": 540
+                    }, 
+                    {
+                      "height": 821, 
+                      "width": 1081
+                    }, 
+                    {
+                      "height": 1642, 
+                      "width": 2163
+                    }, 
+                    {
+                      "height": 3284, 
+                      "width": 4327
+                    }
+                  ]
+                }, 
+                "width": 8655
+              }
+            }
+          ], 
+          "label": "Main View", 
+          "metadata": [
+            {
+              "label": "Open Content Quality", 
+              "value": "Yes"
+            }
+          ], 
+          "rights": "http://creativecommons.org/publicdomain/zero/1.0/", 
+          "thumbnail": {
+            "@id": "https://media.getty.edu/iiif/image/f814f130-ddda-495b-941e-c569dca0c07c/full/!600,600/0/default.jpg", 
+            "@type": "dctypes:Image", 
+            "format": "image/jpeg", 
+            "height": 456, 
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json", 
+              "@id": "https://media.getty.edu/iiif/image/f814f130-ddda-495b-941e-c569dca0c07c", 
+              "profile": "http://iiif.io/api/image/2/level2.json"
+            }, 
+            "width": 600
+          }, 
+          "width": 8655
+        }
+      ], 
+      "label": "Default Range", 
+      "startCanvas": "https://media.getty.edu/iiif/manifest/canvas/f814f130-ddda-495b-941e-c569dca0c07c"
+    }
+  ], 
+  "thumbnail": {
+    "@id": "https://media.getty.edu/iiif/image/f814f130-ddda-495b-941e-c569dca0c07c/full/!600,600/0/default.jpg", 
+    "@type": "dctypes:Image", 
+    "format": "image/jpeg", 
+    "height": 456, 
+    "label": "Main View", 
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json", 
+      "@id": "https://media.getty.edu/iiif/image/f814f130-ddda-495b-941e-c569dca0c07c", 
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }, 
+    "width": 600
+  }
+}
