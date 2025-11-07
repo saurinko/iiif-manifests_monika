@@ -1,0 +1,35 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://twojanazwa.github.io/iiif-manifests/sbc_439806_manifest.json",
+  "type": "Manifest",
+  "label": { "en": ["Kościół Pokoju w Głogowie – strona 1"] },
+  "items": [
+    {
+      "id": "https://twojanazwa.github.io/iiif-manifests/canvas/sbc_439806_page1",
+      "type": "Canvas",
+      "width": 1600,
+      "height": 1200,
+      "items": [
+        {
+          "id": "https://twojanazwa.github.io/iiif-manifests/annotationpage/sbc_439806_page1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://twojanazwa.github.io/iiif-manifests/annotation/sbc_439806_page1-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://twojanazwa.github.io/iiif-manifests/sbc_439806_page1.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 1600,
+                "height": 1200
+              },
+              "target": "https://twojanazwa.github.io/iiif-manifests/canvas/sbc_439806_page1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
