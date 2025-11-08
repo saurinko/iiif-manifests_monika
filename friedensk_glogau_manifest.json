@@ -1,0 +1,47 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://raw.githubusercontent.com/saurinko/iiif-manifests_monika/main/friedensk_glogau_manifest.json",
+  "type": "Manifest",
+  "label": { "en": ["Friedenskirche Glogau (Kościół Pokoju w Głogowie)"] },
+  "summary": {
+    "en": ["Kościół Pokoju w Głogowie – obraz z Wikimedia Commons (Friedensk-Glogau.jpg), konwertowany do formatu IIIF."]
+  },
+  "metadata": [
+    { "label": { "en": ["Źródło"] }, "value": { "en": ["https://commons.wikimedia.org/wiki/File:Friedensk-Glogau.jpg"] } },
+    { "label": { "en": ["Autor"] }, "value": { "en": ["nieznany / Wikimedia Commons"] } }
+  ],
+  "items": [
+    {
+      "id": "https://raw.githubusercontent.com/saurinko/iiif-manifests_monika/main/canvas/friedensk1",
+      "type": "Canvas",
+      "height": 1413,
+      "width": 1898,
+      "items": [
+        {
+          "id": "https://raw.githubusercontent.com/saurinko/iiif-manifests_monika/main/annotationpage/friedensk1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://raw.githubusercontent.com/saurinko/iiif-manifests_monika/main/annotation/friedensk1-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://zoomviewer.toolforge.org/fcgi-bin/iipsrv.fcgi?iiif=cache%2Feac142e137e0f1fd6566e8c32db2d1ec.tif/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "id": "https://zoomviewer.toolforge.org/fcgi-bin/iipsrv.fcgi?iiif=cache%2Feac142e137e0f1fd6566e8c32db2d1ec.tif",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://raw.githubusercontent.com/saurinko/iiif-manifests_monika/main/canvas/friedensk1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
